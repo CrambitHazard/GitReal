@@ -1,0 +1,110 @@
+{
+  "issues": [
+    {
+      "id": "issue-1",
+      "number": 1,
+      "title": "Morning routine conflicts with workout schedule",
+      "description": "The current morning routine timing conflicts with the 30-minute workout, causing schedule overlap and stress. Need to reorganize the timing or adjust the routine structure.",
+      "status": "open",
+      "priority": "medium",
+      "author": "john-doe",
+      "assignee": "john-doe",
+      "createdAt": "2024-01-04T09:15:00.000Z",
+      "updatedAt": "2024-01-05T14:30:00.000Z",
+      "labels": ["routine", "scheduling", "conflict"],
+      "comments": [
+        {
+          "id": "comment-1",
+          "content": "Maybe we should move the workout to the evening instead? Or wake up 30 minutes earlier?",
+          "author": "jane-smith",
+          "createdAt": "2024-01-04T15:30:00.000Z"
+        },
+        {
+          "id": "comment-2",
+          "content": "I think waking up earlier would be better. Evening workouts might interfere with wind-down routines.",
+          "author": "john-doe",
+          "createdAt": "2024-01-05T14:30:00.000Z"
+        }
+      ],
+      "projectId": "proj-1"
+    },
+    {
+      "id": "issue-2",
+      "title": "Need better meal planning templates",
+      "description": "The current meal planning approach is too vague. We need structured templates for different diet types and meal prep strategies.",
+      "status": "open",
+      "priority": "low",
+      "author": "jane-smith",
+      "assignee": "john-doe",
+      "createdAt": "2024-01-08T11:20:00.000Z",
+      "updatedAt": "2024-01-10T09:45:00.000Z",
+      "labels": ["enhancement", "nutrition", "templates"],
+      "comments": [
+        {
+          "id": "comment-3",
+          "content": "I found some great Mediterranean diet templates online. Should I add them to the task description?",
+          "author": "jane-smith",
+          "createdAt": "2024-01-09T16:20:00.000Z"
+        }
+      ],
+      "projectId": "proj-1"
+    },
+    {
+      "id": "issue-3",
+      "title": "Reading habit tracking needs improvement",
+      "description": "Currently just tracking pages read, but would be helpful to track books completed, reading speed, and comprehension notes.",
+      "status": "closed",
+      "priority": "low",
+      "author": "john-doe",
+      "assignee": "john-doe",
+      "createdAt": "2024-01-06T19:45:00.000Z",
+      "updatedAt": "2024-01-12T08:30:00.000Z",
+      "closedAt": "2024-01-12T08:30:00.000Z",
+      "labels": ["enhancement", "tracking", "reading"],
+      "comments": [
+        {
+          "id": "comment-4",
+          "content": "Added reading tracking metadata to the task. Closing this issue.",
+          "author": "john-doe",
+          "createdAt": "2024-01-12T08:30:00.000Z"
+        }
+      ],
+      "projectId": "proj-1"
+    },
+    {
+      "id": "issue-4",
+      "title": "Kitchen renovation budget unclear",
+      "description": "The budget range for kitchen renovation is too broad. Need more specific estimates for different tiers of renovation (basic, mid-range, luxury).",
+      "status": "open",
+      "priority": "high",
+      "author": "jane-smith",
+      "assignee": "jane-smith",
+      "createdAt": "2024-01-10T13:15:00.000Z",
+      "updatedAt": "2024-01-13T10:20:00.000Z",
+      "labels": ["budget", "kitchen", "planning"],
+      "comments": [
+        {
+          "id": "comment-5",
+          "content": "Got quotes from 3 contractors. Basic renovation: $12-15k, Mid-range: $18-25k, Luxury: $30-40k",
+          "author": "jane-smith",
+          "createdAt": "2024-01-13T10:20:00.000Z"
+        }
+      ],
+      "projectId": "proj-2"
+    },
+    {
+      "id": "issue-5",
+      "title": "Garden planning needs seasonal schedule",
+      "description": "The vegetable garden task doesn't account for seasonal planting schedules. Need to break it down into seasonal phases.",
+      "status": "open",
+      "priority": "medium",
+      "author": "bob-wilson",
+      "assignee": "jane-smith",
+      "createdAt": "2024-01-15T14:30:00.000Z",
+      "updatedAt": "2024-01-15T14:30:00.000Z",
+      "labels": ["gardening", "planning", "seasonal"],
+      "comments": [],
+      "projectId": "proj-2"
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "edges": [
+    {
+      "id": "edge-1",
+      "from": "commit-1",
+      "to": "commit-2",
+      "type": "parent"
+    },
+    {
+      "id": "edge-2",
+      "from": "commit-2",
+      "to": "commit-3",
+      "type": "parent"
+    },
+    {
+      "id": "edge-3",
+      "from": "commit-3",
+      "to": "commit-4",
+      "type": "parent"
+    },
+    {
+      "id": "edge-4",
+      "from": "commit-4",
+      "to": "commit-5",
+      "type": "parent"
+    },
+    {
+      "id": "edge-5",
+      "from": "commit-3",
+      "to": "commit-6",
+      "type": "branch"
+    },
+    {
+      "id": "edge-6",
+      "from": "commit-6",
+      "to": "commit-5",
+      "type": "merge"
+    },
+    {
+      "id": "edge-7",
+      "from": "commit-7",
+      "to": "commit-8",
+      "type": "parent"
+    }
+  ],
+  "contributionData": [
+    {
+      "date": "2024-01-01T00:00:00.000Z",
+      "commitCount": 1,
+      "taskCount": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-02T00:00:00.000Z",
+      "commitCount": 1,
+      "taskCount": 2,
+      "intensity": 2
+    },
+    {
+      "date": "2024-01-03T00:00:00.000Z",
+      "commitCount": 1,
+      "taskCount": 2,
+      "intensity": 2
+    },
+    {
+      "date": "2024-01-04T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-05T00:00:00.000Z",
+      "commitCount": 1,
+      "taskCount": 1,
+      "intensity": 1
+    },
+    {
+      "date": "2024-01-06T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-07T00:00:00.000Z",
+      "commitCount": 1,
+      "taskCount": 2,
+      "intensity": 2
+    },
+    {
+      "date": "2024-01-08T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-09T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-10T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-11T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-12T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-13T00:00:00.000Z",
+      "commitCount": 0,
+      "taskCount": 0,
+      "intensity": 0
+    },
+    {
+      "date": "2024-01-14T00:00:00.000Z",
+      "commitCount": 2,
+      "taskCount": 4,
+      "intensity": 4
+    },
+    {
+      "date": "2024-01-15T00:00:00.000Z",
+      "commitCount": 1,
+      "taskCount": 0,
+      "intensity": 1
+    }
+  ],
+  "userActivity": {
+    "john-doe": {
+      "userId": "john-doe",
+      "totalCommits": 4,
+      "totalTasks": 7,
+      "streakDays": 3,
+      "contributions": [
+        {
+          "date": "2024-01-01T00:00:00.000Z",
+          "commitCount": 1,
+          "taskCount": 1,
+          "intensity": 1
+        },
+        {
+          "date": "2024-01-02T00:00:00.000Z",
+          "commitCount": 1,
+          "taskCount": 2,
+          "intensity": 2
+        },
+        {
+          "date": "2024-01-03T00:00:00.000Z",
+          "commitCount": 1,
+          "taskCount": 2,
+          "intensity": 2
+        },
+        {
+          "date": "2024-01-15T00:00:00.000Z",
+          "commitCount": 1,
+          "taskCount": 0,
+          "intensity": 1
+        }
+      ]
+    },
+    "jane-smith": {
+      "userId": "jane-smith",
+      "totalCommits": 3,
+      "totalTasks": 5,
+      "streakDays": 2,
+      "contributions": [
+        {
+          "date": "2024-01-05T00:00:00.000Z",
+          "commitCount": 1,
+          "taskCount": 1,
+          "intensity": 1
+        },
+        {
+          "date": "2024-01-07T00:00:00.000Z",
+          "commitCount": 1,
+          "taskCount": 2,
+          "intensity": 2
+        },
+        {
+          "date": "2024-01-14T00:00:00.000Z",
+          "commitCount": 2,
+          "taskCount": 4,
+          "intensity": 4
+        }
+      ]
+    }
+  },
+  "projectStats": {
+    "proj-1": {
+      "totalCommits": 6,
+      "totalBranches": 2,
+      "totalTasks": 6,
+      "totalIssues": 3,
+      "totalPullRequests": 2,
+      "activeContributors": 2,
+      "lastActivity": "2024-01-15T10:30:00.000Z"
+    },
+    "proj-2": {
+      "totalCommits": 2,
+      "totalBranches": 1,
+      "totalTasks": 3,
+      "totalIssues": 2,
+      "totalPullRequests": 2,
+      "activeContributors": 2,
+      "lastActivity": "2024-01-14T16:45:00.000Z"
+    }
+  }
+}

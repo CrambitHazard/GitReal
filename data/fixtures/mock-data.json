@@ -1,0 +1,394 @@
+{
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "Personal Task Manager",
+      "description": "A comprehensive task management system for tracking daily activities and goals",
+      "owner": "john-doe",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-15T10:30:00.000Z",
+      "isPrivate": false,
+      "defaultBranch": "main",
+      "starCount": 12,
+      "forkCount": 3
+    },
+    {
+      "id": "proj-2",
+      "name": "Home Improvement Tracker",
+      "description": "Track home renovation projects and maintenance tasks",
+      "owner": "jane-smith",
+      "createdAt": "2024-01-05T00:00:00.000Z",
+      "updatedAt": "2024-01-14T16:45:00.000Z",
+      "isPrivate": true,
+      "defaultBranch": "main",
+      "starCount": 7,
+      "forkCount": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "john-doe",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=john"
+    },
+    {
+      "id": "jane-smith",
+      "name": "Jane Smith",
+      "email": "jane@example.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=jane"
+    },
+    {
+      "id": "bob-wilson",
+      "name": "Bob Wilson",
+      "email": "bob@example.com",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=bob"
+    }
+  ],
+  "branches": [
+    {
+      "id": "branch-1",
+      "name": "main",
+      "projectId": "proj-1",
+      "headCommitId": "commit-5",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "createdBy": "john-doe",
+      "isDefault": true,
+      "isProtected": true,
+      "lastActivity": "2024-01-15T10:30:00.000Z"
+    },
+    {
+      "id": "branch-2",
+      "name": "feature/weekly-planning",
+      "projectId": "proj-1",
+      "headCommitId": "commit-6",
+      "createdAt": "2024-01-10T09:00:00.000Z",
+      "createdBy": "jane-smith",
+      "isDefault": false,
+      "isProtected": false,
+      "lastActivity": "2024-01-14T14:20:00.000Z"
+    },
+    {
+      "id": "branch-3",
+      "name": "main",
+      "projectId": "proj-2",
+      "headCommitId": "commit-8",
+      "createdAt": "2024-01-05T00:00:00.000Z",
+      "createdBy": "jane-smith",
+      "isDefault": true,
+      "isProtected": true,
+      "lastActivity": "2024-01-14T16:45:00.000Z"
+    }
+  ],
+  "commits": [
+    {
+      "id": "commit-1",
+      "hash": "a1b2c3d4e5f6789012345678901234567890abcd",
+      "shortHash": "a1b2c3d",
+      "message": "Initial project setup with basic task structure",
+      "author": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=john"
+      },
+      "timestamp": "2024-01-01T00:00:00.000Z",
+      "parentIds": [],
+      "branchName": "main",
+      "changedTasks": [
+        {
+          "taskId": "task-1",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Set up morning routine",
+            "status": "todo",
+            "priority": "medium"
+          },
+          "notes": "Created initial morning routine task"
+        }
+      ],
+      "stats": {
+        "tasksAdded": 1,
+        "tasksModified": 0,
+        "tasksDeleted": 0,
+        "totalChanges": 1
+      }
+    },
+    {
+      "id": "commit-2",
+      "hash": "b2c3d4e5f6789012345678901234567890abcdef",
+      "shortHash": "b2c3d4e",
+      "message": "Add exercise and meal planning tasks",
+      "author": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=john"
+      },
+      "timestamp": "2024-01-02T08:30:00.000Z",
+      "parentIds": ["commit-1"],
+      "branchName": "main",
+      "changedTasks": [
+        {
+          "taskId": "task-2",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "30-minute morning workout",
+            "status": "todo",
+            "priority": "high"
+          },
+          "notes": "Added exercise routine"
+        },
+        {
+          "taskId": "task-3",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Plan healthy meals for the week",
+            "status": "todo",
+            "priority": "medium"
+          },
+          "notes": "Added meal planning task"
+        }
+      ],
+      "stats": {
+        "tasksAdded": 2,
+        "tasksModified": 0,
+        "tasksDeleted": 0,
+        "totalChanges": 2
+      }
+    },
+    {
+      "id": "commit-3",
+      "hash": "c3d4e5f6789012345678901234567890abcdef12",
+      "shortHash": "c3d4e5f",
+      "message": "Update morning routine status and add reading goal",
+      "author": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=john"
+      },
+      "timestamp": "2024-01-03T18:15:00.000Z",
+      "parentIds": ["commit-2"],
+      "branchName": "main",
+      "changedTasks": [
+        {
+          "taskId": "task-1",
+          "changeType": "modified",
+          "oldValues": {
+            "status": "todo"
+          },
+          "newValues": {
+            "status": "in_progress"
+          },
+          "notes": "Started implementing morning routine"
+        },
+        {
+          "taskId": "task-4",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Read 20 pages daily",
+            "status": "todo",
+            "priority": "low"
+          },
+          "notes": "Added daily reading goal"
+        }
+      ],
+      "stats": {
+        "tasksAdded": 1,
+        "tasksModified": 1,
+        "tasksDeleted": 0,
+        "totalChanges": 2
+      }
+    },
+    {
+      "id": "commit-4",
+      "hash": "d4e5f6789012345678901234567890abcdef1234",
+      "shortHash": "d4e5f67",
+      "message": "Complete workout routine and update meal planning",
+      "author": {
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=jane"
+      },
+      "timestamp": "2024-01-07T12:45:00.000Z",
+      "parentIds": ["commit-3"],
+      "branchName": "main",
+      "changedTasks": [
+        {
+          "taskId": "task-2",
+          "changeType": "modified",
+          "oldValues": {
+            "status": "todo"
+          },
+          "newValues": {
+            "status": "done"
+          },
+          "notes": "Completed first week of workouts"
+        },
+        {
+          "taskId": "task-3",
+          "changeType": "modified",
+          "oldValues": {
+            "status": "todo",
+            "description": ""
+          },
+          "newValues": {
+            "status": "in_progress",
+            "description": "Focus on Mediterranean diet with meal prep on Sundays"
+          },
+          "notes": "Updated meal planning with specific diet approach"
+        }
+      ],
+      "stats": {
+        "tasksAdded": 0,
+        "tasksModified": 2,
+        "tasksDeleted": 0,
+        "totalChanges": 2
+      }
+    },
+    {
+      "id": "commit-5",
+      "hash": "e5f6789012345678901234567890abcdef123456",
+      "shortHash": "e5f6789",
+      "message": "Merge weekly planning feature",
+      "author": {
+        "name": "John Doe",
+        "email": "john@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=john"
+      },
+      "timestamp": "2024-01-15T10:30:00.000Z",
+      "parentIds": ["commit-4", "commit-6"],
+      "branchName": "main",
+      "changedTasks": [],
+      "stats": {
+        "tasksAdded": 0,
+        "tasksModified": 0,
+        "tasksDeleted": 0,
+        "totalChanges": 0
+      }
+    },
+    {
+      "id": "commit-6",
+      "hash": "f6789012345678901234567890abcdef1234567a",
+      "shortHash": "f678901",
+      "message": "Add weekly planning and review tasks",
+      "author": {
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=jane"
+      },
+      "timestamp": "2024-01-14T14:20:00.000Z",
+      "parentIds": ["commit-3"],
+      "branchName": "feature/weekly-planning",
+      "changedTasks": [
+        {
+          "taskId": "task-5",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Weekly goal setting session",
+            "status": "todo",
+            "priority": "high"
+          },
+          "notes": "Added weekly planning routine"
+        },
+        {
+          "taskId": "task-6",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Weekly review and reflection",
+            "status": "todo",
+            "priority": "medium"
+          },
+          "notes": "Added weekly review process"
+        }
+      ],
+      "stats": {
+        "tasksAdded": 2,
+        "tasksModified": 0,
+        "tasksDeleted": 0,
+        "totalChanges": 2
+      }
+    },
+    {
+      "id": "commit-7",
+      "hash": "789012345678901234567890abcdef1234567ab",
+      "shortHash": "7890123",
+      "message": "Initial home improvement project setup",
+      "author": {
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=jane"
+      },
+      "timestamp": "2024-01-05T00:00:00.000Z",
+      "parentIds": [],
+      "branchName": "main",
+      "changedTasks": [
+        {
+          "taskId": "task-7",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Research kitchen renovation ideas",
+            "status": "todo",
+            "priority": "high"
+          },
+          "notes": "Starting kitchen renovation planning"
+        }
+      ],
+      "stats": {
+        "tasksAdded": 1,
+        "tasksModified": 0,
+        "tasksDeleted": 0,
+        "totalChanges": 1
+      }
+    },
+    {
+      "id": "commit-8",
+      "hash": "89012345678901234567890abcdef1234567abc",
+      "shortHash": "8901234",
+      "message": "Add bathroom and garden improvement tasks",
+      "author": {
+        "name": "Jane Smith",
+        "email": "jane@example.com",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=jane"
+      },
+      "timestamp": "2024-01-14T16:45:00.000Z",
+      "parentIds": ["commit-7"],
+      "branchName": "main",
+      "changedTasks": [
+        {
+          "taskId": "task-8",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Renovate master bathroom",
+            "status": "todo",
+            "priority": "medium"
+          },
+          "notes": "Added bathroom renovation project"
+        },
+        {
+          "taskId": "task-9",
+          "changeType": "created",
+          "oldValues": {},
+          "newValues": {
+            "title": "Plant vegetable garden",
+            "status": "todo",
+            "priority": "low"
+          },
+          "notes": "Added garden improvement task"
+        }
+      ],
+      "stats": {
+        "tasksAdded": 2,
+        "tasksModified": 0,
+        "tasksDeleted": 0,
+        "totalChanges": 2
+      }
+    }
+  ]
+}

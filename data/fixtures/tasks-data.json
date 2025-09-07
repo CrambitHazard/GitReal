@@ -1,0 +1,184 @@
+{
+  "tasks": [
+    {
+      "id": "task-1",
+      "title": "Set up morning routine",
+      "description": "Establish a consistent morning routine including wake-up time, hydration, and planning",
+      "status": "in_progress",
+      "priority": "medium",
+      "assignee": "john-doe",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-03T18:15:00.000Z",
+      "dueDate": "2024-01-07T00:00:00.000Z",
+      "labels": ["routine", "self-care"],
+      "metadata": {
+        "category": "personal-development",
+        "difficulty": "easy",
+        "timeEstimate": "30 minutes daily"
+      },
+      "projectId": "proj-1",
+      "branchId": "branch-1"
+    },
+    {
+      "id": "task-2",
+      "title": "30-minute morning workout",
+      "description": "Complete a 30-minute workout routine focusing on cardio and strength training",
+      "status": "done",
+      "priority": "high",
+      "assignee": "john-doe",
+      "createdAt": "2024-01-02T08:30:00.000Z",
+      "updatedAt": "2024-01-07T12:45:00.000Z",
+      "dueDate": "2024-01-08T00:00:00.000Z",
+      "labels": ["fitness", "health", "routine"],
+      "metadata": {
+        "category": "health-fitness",
+        "difficulty": "medium",
+        "timeEstimate": "30 minutes daily",
+        "completedDate": "2024-01-07T12:45:00.000Z"
+      },
+      "projectId": "proj-1",
+      "branchId": "branch-1"
+    },
+    {
+      "id": "task-3",
+      "title": "Plan healthy meals for the week",
+      "description": "Focus on Mediterranean diet with meal prep on Sundays",
+      "status": "in_progress",
+      "priority": "medium",
+      "assignee": "john-doe",
+      "createdAt": "2024-01-02T08:30:00.000Z",
+      "updatedAt": "2024-01-07T12:45:00.000Z",
+      "dueDate": "2024-01-14T00:00:00.000Z",
+      "labels": ["nutrition", "planning", "health"],
+      "metadata": {
+        "category": "health-fitness",
+        "difficulty": "medium",
+        "timeEstimate": "2 hours weekly",
+        "mealPrepDay": "Sunday"
+      },
+      "projectId": "proj-1",
+      "branchId": "branch-1"
+    },
+    {
+      "id": "task-4",
+      "title": "Read 20 pages daily",
+      "description": "Maintain a daily reading habit to improve knowledge and relaxation",
+      "status": "todo",
+      "priority": "low",
+      "assignee": "john-doe",
+      "createdAt": "2024-01-03T18:15:00.000Z",
+      "updatedAt": "2024-01-03T18:15:00.000Z",
+      "dueDate": "2024-01-31T00:00:00.000Z",
+      "labels": ["education", "routine", "personal-development"],
+      "metadata": {
+        "category": "personal-development",
+        "difficulty": "easy",
+        "timeEstimate": "30 minutes daily",
+        "currentBook": "Atomic Habits"
+      },
+      "projectId": "proj-1",
+      "branchId": "branch-1"
+    },
+    {
+      "id": "task-5",
+      "title": "Weekly goal setting session",
+      "description": "Dedicate time each week to set and review goals for the upcoming week",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "jane-smith",
+      "createdAt": "2024-01-14T14:20:00.000Z",
+      "updatedAt": "2024-01-14T14:20:00.000Z",
+      "dueDate": "2024-01-21T00:00:00.000Z",
+      "labels": ["planning", "goals", "routine"],
+      "metadata": {
+        "category": "planning",
+        "difficulty": "easy",
+        "timeEstimate": "45 minutes weekly",
+        "frequency": "weekly"
+      },
+      "projectId": "proj-1",
+      "branchId": "branch-2"
+    },
+    {
+      "id": "task-6",
+      "title": "Weekly review and reflection",
+      "description": "Reflect on the past week's accomplishments and areas for improvement",
+      "status": "todo",
+      "priority": "medium",
+      "assignee": "jane-smith",
+      "createdAt": "2024-01-14T14:20:00.000Z",
+      "updatedAt": "2024-01-14T14:20:00.000Z",
+      "dueDate": "2024-01-21T00:00:00.000Z",
+      "labels": ["reflection", "goals", "routine"],
+      "metadata": {
+        "category": "planning",
+        "difficulty": "easy",
+        "timeEstimate": "30 minutes weekly",
+        "frequency": "weekly"
+      },
+      "projectId": "proj-1",
+      "branchId": "branch-2"
+    },
+    {
+      "id": "task-7",
+      "title": "Research kitchen renovation ideas",
+      "description": "Explore different kitchen design styles, materials, and budget options",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "jane-smith",
+      "createdAt": "2024-01-05T00:00:00.000Z",
+      "updatedAt": "2024-01-05T00:00:00.000Z",
+      "dueDate": "2024-02-01T00:00:00.000Z",
+      "labels": ["home-improvement", "research", "kitchen"],
+      "metadata": {
+        "category": "home-improvement",
+        "difficulty": "medium",
+        "timeEstimate": "10 hours",
+        "budget": "$15000-25000"
+      },
+      "projectId": "proj-2",
+      "branchId": "branch-3"
+    },
+    {
+      "id": "task-8",
+      "title": "Renovate master bathroom",
+      "description": "Complete renovation of master bathroom including new fixtures and tile",
+      "status": "todo",
+      "priority": "medium",
+      "assignee": "jane-smith",
+      "createdAt": "2024-01-14T16:45:00.000Z",
+      "updatedAt": "2024-01-14T16:45:00.000Z",
+      "dueDate": "2024-03-15T00:00:00.000Z",
+      "labels": ["home-improvement", "bathroom", "major-project"],
+      "metadata": {
+        "category": "home-improvement",
+        "difficulty": "hard",
+        "timeEstimate": "40 hours",
+        "budget": "$8000-12000"
+      },
+      "projectId": "proj-2",
+      "branchId": "branch-3"
+    },
+    {
+      "id": "task-9",
+      "title": "Plant vegetable garden",
+      "description": "Create a vegetable garden with tomatoes, herbs, and seasonal vegetables",
+      "status": "todo",
+      "priority": "low",
+      "assignee": "jane-smith",
+      "createdAt": "2024-01-14T16:45:00.000Z",
+      "updatedAt": "2024-01-14T16:45:00.000Z",
+      "dueDate": "2024-04-01T00:00:00.000Z",
+      "labels": ["gardening", "outdoor", "sustainability"],
+      "metadata": {
+        "category": "outdoor",
+        "difficulty": "medium",
+        "timeEstimate": "15 hours",
+        "season": "spring",
+        "budget": "$200-400"
+      },
+      "projectId": "proj-2",
+      "branchId": "branch-3"
+    }
+  ]
+}

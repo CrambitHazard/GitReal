@@ -1,0 +1,75 @@
+{
+  "pullRequests": [
+    {
+      "id": "pr-1",
+      "number": 1,
+      "title": "Add weekly planning and review system",
+      "description": "This PR introduces a comprehensive weekly planning system that includes:\n\n- Weekly goal setting sessions\n- Weekly review and reflection processes\n- Integration with existing daily routines\n\nThis will help maintain long-term progress tracking and continuous improvement.\n\n## Changes\n- Added `task-5`: Weekly goal setting session\n- Added `task-6`: Weekly review and reflection\n- Both tasks are high priority to establish the routine\n\n## Testing\n- [ ] Verify tasks can be created and tracked\n- [ ] Confirm integration with existing morning routine\n- [ ] Test weekly scheduling doesn't conflict with other commitments",
+      "fromBranch": "feature/weekly-planning",
+      "toBranch": "main",
+      "status": "merged",
+      "author": "jane-smith",
+      "reviewers": ["john-doe", "bob-wilson"],
+      "createdAt": "2024-01-14T15:00:00.000Z",
+      "updatedAt": "2024-01-15T10:30:00.000Z",
+      "mergedAt": "2024-01-15T10:30:00.000Z",
+      "mergeCommitId": "commit-5",
+      "conflicts": [],
+      "projectId": "proj-1"
+    },
+    {
+      "id": "pr-2",
+      "number": 2,
+      "title": "Enhanced meal planning with Mediterranean focus",
+      "description": "Improve the meal planning task with specific dietary approach and meal prep strategy.\n\n## Changes\n- Updated task description to focus on Mediterranean diet\n- Added meal prep scheduling (Sundays)\n- Increased time estimate to be more realistic\n\n## Benefits\n- More structured approach to nutrition\n- Better time management with designated prep day\n- Healthier food choices with Mediterranean focus",
+      "fromBranch": "feature/meal-planning-update",
+      "toBranch": "main",
+      "status": "open",
+      "author": "john-doe",
+      "reviewers": ["jane-smith"],
+      "createdAt": "2024-01-13T09:30:00.000Z",
+      "updatedAt": "2024-01-14T16:20:00.000Z",
+      "conflicts": [
+        {
+          "id": "conflict-1",
+          "taskId": "task-3",
+          "field": "description",
+          "baseValue": "",
+          "incomingValue": "Focus on Mediterranean diet with meal prep on Sundays",
+          "currentValue": "Plan healthy meals with variety and balance"
+        }
+      ],
+      "projectId": "proj-1"
+    },
+    {
+      "id": "pr-3",
+      "number": 3,
+      "title": "Add bathroom renovation project",
+      "description": "Expanding home improvement scope to include master bathroom renovation alongside kitchen planning.\n\n## Scope\n- New fixtures (vanity, toilet, shower)\n- Tile replacement for floors and shower\n- Updated lighting and ventilation\n- Paint and finishing touches\n\n## Timeline\n- Planning: February 2024\n- Execution: March 2024\n- Budget: $8,000 - $12,000\n\n## Dependencies\n- Kitchen renovation timeline (avoid overlap)\n- Contractor availability\n- Permit requirements",
+      "fromBranch": "feature/bathroom-renovation",
+      "toBranch": "main",
+      "status": "draft",
+      "author": "jane-smith",
+      "reviewers": [],
+      "createdAt": "2024-01-14T17:00:00.000Z",
+      "updatedAt": "2024-01-14T17:00:00.000Z",
+      "conflicts": [],
+      "projectId": "proj-2"
+    },
+    {
+      "id": "pr-4",
+      "number": 4,
+      "title": "Seasonal garden planning breakdown",
+      "description": "Breaking down the vegetable garden task into seasonal phases for better planning and execution.\n\n## Proposed Changes\n- Spring phase: Soil preparation and cool-season crops\n- Summer phase: Warm-season crops and maintenance\n- Fall phase: Fall crops and garden cleanup\n- Winter phase: Planning and preparation for next year\n\n## Benefits\n- Better alignment with natural growing cycles\n- More manageable task breakdown\n- Seasonal budget allocation\n- Improved success rates",
+      "fromBranch": "feature/seasonal-garden",
+      "toBranch": "main",
+      "status": "open",
+      "author": "bob-wilson",
+      "reviewers": ["jane-smith"],
+      "createdAt": "2024-01-15T16:45:00.000Z",
+      "updatedAt": "2024-01-15T16:45:00.000Z",
+      "conflicts": [],
+      "projectId": "proj-2"
+    }
+  ]
+}
